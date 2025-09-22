@@ -1,4 +1,4 @@
-![Thumbnail](./client/public/preview1.png)
+![Thumbnail](./client/public/momments-thumnail.png)
 
 # 📷 Instagram Clone – Fullstack Web Application
 
