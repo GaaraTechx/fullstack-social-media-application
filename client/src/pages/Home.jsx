@@ -5,6 +5,7 @@ import HomeLoading from "@/components/skeleton/HomeLoading";
 import NoMorePosts from "@/components/home-explore/NoMorePosts";
 import PostsDisplay from "@/components/home-explore/PostsDisplay";
 import NoPostToShow from "@/components/home-explore/NoPostToShow";
+import AuthorCard from "@/components/home-explore/AuthorCard";
 
 const Home = () => {
   const { viewRef } = useScrollToView();
