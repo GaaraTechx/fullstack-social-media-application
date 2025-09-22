@@ -5,8 +5,10 @@ export default function AuthorCard() {
     <article className="bg-background p-4 border rounded-lg  border-muted">
       <div className="flex justify-center">
         <img
-          src="./author.jpg"
+          src="https://res.cloudinary.com/dnlrzhdcs/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1758540900/PORTOFOLIO/avatar-ahmad-fiqri-oemry.webp"
           alt="author"
+          height={96}
+          width={96}
           className="w-24 h-24 rounded-full border border-muted object-cover"
         />
       </div>

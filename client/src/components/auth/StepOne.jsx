@@ -9,7 +9,9 @@ const StepOne = ({ signUpForm, formControl }) => {
     <div className="space-y-4 w-full">
       {/* head title */}
       <div className="text-center">
-        <div className="text-sm">Choose to sign up with </div>
+        <div className="text-sm text-muted-foreground">
+          Choose to sign up with{" "}
+        </div>
       </div>
 
       {/* signup form */}
@@ -18,11 +20,13 @@ const StepOne = ({ signUpForm, formControl }) => {
       </InputForm>
 
       {/* signup with google */}
-      <div className="text-center text-sm">Or continue</div>
+      <div className="flex items-center justify-center text-sm text-muted-foreground">
+        Or Continue With
+      </div>
       <GoogleAuth buttonTitle={"Signup with google"} />
 
       {/* to signin */}
-      <div className="text-center text-sm">
+      <div className="text-center text-sm text-muted-foreground">
         <span>Already have an account ? </span>
         <Link to="/signin" className="btn-secondary">
           Sign In

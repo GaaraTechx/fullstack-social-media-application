@@ -26,7 +26,12 @@ const Explore = () => {
         <div className="h-10" ref={triggerRef} />
       </div>
 
-      <div className="w-5/12 hidden md:block"></div>
+      {/* author card */}
+      <div className="w-5/12 hidden md:block">
+        <div className="flex justify-center ">
+          <AuthorCard />
+        </div>
+      </div>
     </div>
   );
 };

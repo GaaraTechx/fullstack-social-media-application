@@ -27,9 +27,11 @@ const SignIn = () => {
           <InputForm formik={signInForm} formControl={signInControl}>
             <InputButton formik={signInForm} title="Signin" loading={loading} />
           </InputForm>
-          <div className="flex items-center justify-center py-2">OR</div>
+          <div className="flex items-center justify-center py-3 text-sm text-muted-foreground">
+            Or Continue With
+          </div>
           <GoogleAuth buttonTitle={"Signin with google"} />
-          <CardFooter className="mt-2 space-x-2 flex justify-center">
+          <CardFooter className="mt-2 space-x-2 flex justify-center text-muted-foreground">
             <span> Dont have an account ? </span>
             <Link to="/signup" className="btn-secondary">
               signup
